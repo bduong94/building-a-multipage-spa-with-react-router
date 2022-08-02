@@ -10,6 +10,7 @@ function App() {
     <div>
       <MainHeader />
       <main>
+        {/* Contains all Routes */}
         <Switch>
           <Route path="/welcome">
             <Welcome />
